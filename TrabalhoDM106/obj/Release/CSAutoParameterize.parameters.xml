@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-TrabalhoDM106-20170812014114.mdf;Initial Catalog=aspnet-TrabalhoDM106-20170812014114;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\gusta\\Desktop\\DM106\\trabalho2\\trabalhodm106-master\\trabalhodm106-master\\TrabalhoDM106\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="TrabalhoDM106Context-Web.config Connection String" description="TrabalhoDM106Context A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=TrabalhoDM106Context-20170817222107; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|TrabalhoDM106Context-20170817222107.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\gusta\\Desktop\\DM106\\trabalho2\\trabalhodm106-master\\trabalhodm106-master\\TrabalhoDM106\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TrabalhoDM106Context']/@connectionString" />
+  </parameter>
+</parameters>
